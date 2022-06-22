@@ -1,0 +1,85 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+* {
+	margin: 0;
+}
+
+@font-face {
+	font-family: logo-font;
+	src: url(Odachi.otf);
+}
+
+.header {
+	background-color: #909090;
+	padding: 10px 0px 70px;
+}
+
+.header a {
+	outline: none;
+	float: left;
+	color: black;
+	padding: 10px 10px;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 12px;
+	border-radius: 4px;
+}
+
+.header a.logo {
+	margin-top: 10px;
+	font-family: logo-font;
+	font-size: 55px;
+	font-weight: bold;
+}
+
+.header-right a:hover {
+	padding-top: 9%;
+	background-color: #ddd;
+	color: black;
+}
+
+.header-right a:hover {
+	animation: animation 1s 1;
+}
+
+.header-right a:focus {
+	color: white;
+	background-color: rgb(85, 85, 85);
+}
+
+@keyframes animation {
+	0% {
+		padding-top: 0px;
+	}
+
+	100% {
+		padding-top: 9%;
+	}
+}
+
+.active {
+	background-color: rgb(85, 85, 85);
+	color: white;
+}
+
+
+.header a.active {
+	background-color: rgb(85, 85, 85);
+	color: white;
+}
+
+.header-right {
+	font-family: "Raleway", sans-serif;
+	float: right;
+}
+
+@media screen and (max-width: 670px) {
+	.header a {
+		float: none;
+		text-align: left;
+	}
+
+	.header-right {
+		float: none;
+	}
+}

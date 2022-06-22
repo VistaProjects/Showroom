@@ -1,0 +1,20 @@
+* {box-sizing: border-box;}
+
+body { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(24, 24, 24);
+    color: rgb(255, 255, 255);
+}
+center {
+    margin: auto;
+    width: 70%;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+
+
+li {
+  font-size: 120%;
+  list-style: none;
+}
